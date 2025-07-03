@@ -1,32 +1,4 @@
-- babel 
-- turbopack
-- webpack
-- vite
-- esBuild
-
-- bundler
-- compiler
-- transpiler
-
-react js
-- babel (compiler/transpiler)
-- webpack (bundler)
-
-next js (page router : legacy)
-- babel (compiler/transpiler)
-- webpack (bundler)
-
-
-next js (app router : latest) 
-- 
-- turbopack (bundler)
-
-vite + react
-- esBuild (compiler/transpiler)
-- vite (bundler)
-
-
-
+---
 
 | Framework / Stack         | Compiler / Transpiler      | Bundler                         |
 | ------------------------- | -------------------------- | ------------------------------- |
@@ -36,7 +8,7 @@ vite + react
 | **Vite + React**          | esbuild (dev), Babel (opt) | Vite (uses Rollup in prod)      |
 
 
-
+---
 
 | Tool          | Role(s)                                                    | Used In                             | Written In |
 | ------------- | ---------------------------------------------------------- | ----------------------------------- | ---------- |
@@ -47,8 +19,6 @@ vite + react
 | **Turbopack** | Bundler                                                    | Next.js (App Router, experimental)  | Rust       |
 | **Vite**      | Dev Server + Bundler (uses esbuild in dev, Rollup in prod) | Vite + React                        | TypeScript |
 
-Notes
--- SWC -> Speedy Web Compiler
 
 
 ---
